@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         new Handler(Looper.getMainLooper()).postDelayed(() ->
-                startActivity(new Intent(MainActivity.this,HomeActivity.class)),2000);
+                startActivity(new Intent(MainActivity.this,EntryActivity.class)),2000);
     }
 }
