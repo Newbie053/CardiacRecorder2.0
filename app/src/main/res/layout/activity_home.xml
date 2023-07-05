@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#F44336"
     android:padding="10dp"
-    tools:context=".HomeActivity">
+    tools:context=".HomeActivity" >
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
