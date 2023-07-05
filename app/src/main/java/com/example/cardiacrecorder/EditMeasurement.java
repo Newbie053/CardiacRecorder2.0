@@ -15,7 +15,6 @@ public class EditMeasurement extends AppCompatActivity  {
     MaterialButton updateBtn, cancelBtn;
     int id;
     Bundle extras;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

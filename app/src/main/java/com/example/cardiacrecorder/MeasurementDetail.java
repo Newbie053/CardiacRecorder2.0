@@ -22,6 +22,7 @@ public class MeasurementDetail extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_measurement_detail);
+
         extras = getIntent().getExtras();
         initWidgets();
         setMeasurements();

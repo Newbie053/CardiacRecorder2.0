@@ -1,6 +1,5 @@
 package com.example.cardiacrecorder;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +10,7 @@ import android.widget.Toast;
 import com.google.android.material.button.MaterialButton;
 
 public class AddMeasurement extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
