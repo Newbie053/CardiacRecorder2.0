@@ -77,10 +77,11 @@ public class AddMeasurement extends AppCompatActivity {
                     Measurement measurement = new Measurement(date, time, sysP, diaP, heartR, comment);
                     sqLiteManager.addMeasurementToDatabase(measurement);
 
-                    Toast.makeText(getApplicationContext(), "Measurement saved!", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
-                    finishAffinity();
-                    startActivity(intent);
+                    //Toast.makeText(getApplicationContext(), "Measurement saved!", Toast.LENGTH_SHORT).show();
+                    //Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                    //finishAffinity();
+                    //startActivity(intent);
+                    finish();
                 }
             }
         });
