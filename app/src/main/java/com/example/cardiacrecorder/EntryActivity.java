@@ -9,6 +9,10 @@ import android.widget.Button;
 
 public class EntryActivity extends AppCompatActivity {
 
+    /**
+     * 
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

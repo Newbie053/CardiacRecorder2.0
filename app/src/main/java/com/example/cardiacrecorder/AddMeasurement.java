@@ -32,6 +32,7 @@ public class AddMeasurement extends AppCompatActivity {
             }
         });
 
+
         addBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -77,11 +78,11 @@ public class AddMeasurement extends AppCompatActivity {
                     Measurement measurement = new Measurement(date, time, sysP, diaP, heartR, comment);
                     sqLiteManager.addMeasurementToDatabase(measurement);
 
-                    //Toast.makeText(getApplicationContext(), "Measurement saved!", Toast.LENGTH_SHORT).show();
-                    //Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
-                    //finishAffinity();
-                    //startActivity(intent);
-                    finish();
+                    Toast.makeText(getApplicationContext(), "Measurement saved!", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                    finishAffinity();
+                    startActivity(intent);
+                    //finish();
                 }
             }
         });
